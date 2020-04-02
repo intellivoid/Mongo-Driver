@@ -1,5 +1,5 @@
 <?php
-    
+
     namespace MongoDB\Operation;
 
     use Exception;
