@@ -1,24 +1,23 @@
 <?php
 
+    namespace MongoDB\Model;
 
-namespace MongoDB\Model;
+    use Iterator;
 
-use Iterator;
-
-/**
- * DatabaseInfoIterator interface.
- *
- * This iterator is used for enumerating databases on a server.
- *
- * @api
- * @see \MongoDB\Client::listDatabases()
- */
-interface DatabaseInfoIterator extends Iterator
-{
     /**
-     * Return the current element as a DatabaseInfo instance.
+     * DatabaseInfoIterator interface.
      *
-     * @return DatabaseInfo
+     * This iterator is used for enumerating databases on a server.
+     *
+     * @api
+     * @see \MongoDB\Client::listDatabases()
      */
-    public function current();
-}
+    interface DatabaseInfoIterator extends Iterator
+    {
+        /**
+         * Return the current element as a DatabaseInfo instance.
+         *
+         * @return DatabaseInfo
+         */
+        public function current();
+    }

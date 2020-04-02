@@ -1,24 +1,23 @@
 <?php
 
+    namespace MongoDB\Model;
 
-namespace MongoDB\Model;
+    use Iterator;
 
-use Iterator;
-
-/**
- * CollectionInfoIterator interface.
- *
- * This iterator is used for enumerating collections in a database.
- *
- * @api
- * @see \MongoDB\Database::listCollections()
- */
-interface CollectionInfoIterator extends Iterator
-{
     /**
-     * Return the current element as a CollectionInfo instance.
+     * CollectionInfoIterator interface.
      *
-     * @return CollectionInfo
+     * This iterator is used for enumerating collections in a database.
+     *
+     * @api
+     * @see \MongoDB\Database::listCollections()
      */
-    public function current();
-}
+    interface CollectionInfoIterator extends Iterator
+    {
+        /**
+         * Return the current element as a CollectionInfo instance.
+         *
+         * @return CollectionInfo
+         */
+        public function current();
+    }
