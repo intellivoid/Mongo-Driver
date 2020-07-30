@@ -9,7 +9,7 @@
     "description": "Low-level driver for MongoDB",
     "url": "https://github.com/Intellivoid/Mongo-Driver",
     "dependencies": [
-      {"package": "com.intellivoid.acm", "version": "latest", "required": true}
+      {"package": "com.intellivoid.acm", "version": "latest", "required": false}
     ],
     "configuration": {
       "autoload_method": "static",
