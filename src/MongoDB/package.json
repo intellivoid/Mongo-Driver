@@ -12,7 +12,7 @@
       {"package": "com.intellivoid.acm", "version": "latest", "required": false}
     ],
     "configuration": {
-      "autoload_method": "static",
+      "autoload_method": "indexed",
       "cli_main": "ppm::cli_example.php",
       "post_execution": [
         "ppm::post_example.php"
