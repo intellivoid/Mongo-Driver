@@ -3,7 +3,7 @@
   "package": {
     "package_name": "com.intellivoid.mongodb_driver",
     "name": "MongoDB Driver",
-    "version": "1.6",
+    "version": "1.0.0.6",
     "author": "Zi Xing Narrakas",
     "organization": "Intellivoid Technologies",
     "description": "Low-level driver for MongoDB",
