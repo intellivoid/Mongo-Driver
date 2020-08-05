@@ -1,3 +1,6 @@
+clean:
+	rm -rf build
+
 build:
 	mkdir build
 	ppm --no-intro --compile="src/MongoDB" --directory="build"
