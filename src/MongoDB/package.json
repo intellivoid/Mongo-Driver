@@ -1,6 +1,6 @@
 {
     "package": {
-        "package_name": "com.intellivoid.mongodb_driver",
+        "package_name": "net.intellivoid.mongodb_driver",
         "name": "MongoDB Driver",
         "version": "1.6.0.0",
         "author": "Zi Xing Narrakas",
